@@ -37,7 +37,7 @@ return {
                     name = "TAKE AND TRASH",
                     filename = "TAKE & TRASH IMGUI.lua",
                     description = "Auto take and trash floating items",
-                    status = "pending"
+                    status = "ready"
                 }
             }
         },
