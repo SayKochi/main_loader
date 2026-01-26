@@ -5,11 +5,12 @@ return {
         {
             key = "CPS_2025_KEY",
             name = "CPS",
+            unlocked = true,
             scripts = {
                 {
                     config_id = "0x4D4147324D4147",
                     name = "MAG 2 MAG IMGUI",
-                    url = "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/MAG%202%20MAG%20IMGUI.lua",
+                    url = "https://raw.githubusercontent.com/SayKochi/koleksi-script/refs/heads/main/Mag2Mag_IMGUI.lua",
                     description = "Auto magplant to magplant script",
                     status = "ready"
                 },
@@ -17,14 +18,14 @@ return {
                     config_id = "0x4D4147504C414E54",
                     name = "MAGPLANT STOCK COUNTER",
                     url =
-                    "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/MAGPLANT%20STOCK%20COUNTER.lua",
+                    "https://raw.githubusercontent.com/SayKochi/koleksi-script/refs/heads/main/Magplant_Stock_Counter.lua",
                     description = "Count magplant stock",
                     status = "ready"
                 },
                 {
                     config_id = "0x4445425547",
                     name = "DEBUG",
-                    url = "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/DEBUG.lua",
+                    url = "https://raw.githubusercontent.com/SayKochi/koleksi-script/refs/heads/main/DEBUG.lua",
                     description = "Debug script",
                     status = "ready"
                 },
@@ -32,7 +33,7 @@ return {
                     config_id = "0x54414B455452415348",
                     name = "TAKE AND TRASH",
                     url =
-                    "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/TAKE%20%26%20TRASH%20IMGUI.lua",
+                    "https://raw.githubusercontent.com/SayKochi/koleksi-script/refs/heads/main/TAKE_%26_TRASH_IMGUI.lua",
                     description = "Auto take and trash floating items",
                     status = "pending"
                 }
@@ -45,14 +46,14 @@ return {
                 {
                     config_id = "0x4C554D424552",
                     name = "LUMBER GTFY",
-                    url = "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/LUMBER%20GTFY.lua",
+                    url = "https://raw.githubusercontent.com/SayKochi/koleksi-script/refs/heads/main/Lumber_GTFY.lua",
                     description = "Lumber GTFY script",
                     status = "pending"
                 },
                 {
                     config_id = "0x4341524E4956414C",
                     name = "CARNIVAL GTFY",
-                    url = "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/CARNIVAL%20GTFY.lua",
+                    url = "https://raw.githubusercontent.com/SayKochi/koleksi-script/refs/heads/main/Carnival_GTFY.lua",
                     description = "Carnival GTFY script",
                     status = "pending"
                 }
