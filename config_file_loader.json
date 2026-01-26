@@ -1,62 +1,74 @@
 -- ============== [[ LOADER CONFIG FILE ]] ============== --
--- File konfigurasi untuk Supabase Script Loader
--- File ini harus di-upload ke Supabase table (data_scripts)
--- ID config ini harus diset di CONFIG_SCRIPT_ID di GH_LOADER_IMGUI.lua
+-- File konfigurasi untuk GitHub Script Loader
+--
+-- Struktur:
+--   github_token: Token GitHub untuk akses repo private (1 token untuk semua script)
+--   servers: Array of server objects
+--     - key: Encoded key untuk unlock server (dapat di-set sendiri)
+--     - name: Nama server yang ditampilkan di panel
+--     - scripts: Array of script objects
+--       - config_id: Binary identifier untuk setiap script
+--       - name: Nama script yang ditampilkan
+--       - url: Raw URL GitHub untuk script tersebut
+--       - description: Deskripsi script (optional)
+--       - status: Status script "ready" atau "pending" (optional)
 
 return {
-    -- Definisi server/segment. Tambah entri baru di sini untuk menambah mode di UI.
+    -- Token GitHub untuk akses repo private (digunakan untuk semua script)
+    github_token = "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",
+
     servers = {
         {
-            key = "cps",
-            name = "CPS",
-            label = "CPS",
+            key = "CPS_2025_KEY", -- Key encoded untuk unlock server ini
+            name = "CPS",         -- Nama yang ditampilkan di panel
             scripts = {
                 {
-                    id = "mag2mag_imgui",
+                    config_id = "0x4D4147324D4147", -- Binary identifier: "MAG2MAG"
                     name = "MAG 2 MAG IMGUI",
-                    filename = "MAG 2 MAG IMGUI.lua",
+                    url = "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/MAG%202%20MAG%20IMGUI.lua",
                     description = "Auto magplant to magplant script",
                     status = "ready"
                 },
                 {
-                    id = "magplant_stock_counter",
+                    config_id = "0x4D4147504C414E54", -- Binary identifier: "MAGPLANT"
                     name = "MAGPLANT STOCK COUNTER",
-                    filename = "MAGPLANT STOCK COUNTER.lua",
+                    url =
+                    "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/MAGPLANT%20STOCK%20COUNTER.lua",
                     description = "Count magplant stock",
                     status = "ready"
                 },
                 {
-                    id = "debug",
+                    config_id = "0x4445425547", -- Binary identifier: "DEBUG"
                     name = "DEBUG",
-                    filename = "DEBUG.lua",
+                    url = "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/DEBUG.lua",
                     description = "Debug script",
                     status = "ready"
                 },
                 {
-                    id = "take_and_trash_imgui",
+                    config_id = "0x54414B455452415348", -- Binary identifier: "TAKETRASH"
                     name = "TAKE AND TRASH",
-                    filename = "TAKE & TRASH IMGUI.lua",
+                    url =
+                    "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/TAKE%20%26%20TRASH%20IMGUI.lua",
                     description = "Auto take and trash floating items",
-                    status = "ready"
+                    status = "pending"
                 }
             }
         },
         {
-            key = "gtfy",
-            name = "GTFY",
-            label = "GTFY",
+            key = "GTFY_2025_KEY", -- Key encoded untuk unlock server ini
+            name = "GTFY",         -- Nama yang ditampilkan di panel
             scripts = {
                 {
-                    id = "lumber_gtfy",
+                    config_id = "0x4C554D424552", -- Binary identifier: "LUMBER"
                     name = "LUMBER GTFY",
-                    filename = "LUMBER GTFY.lua",
+                    url = "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/LUMBER%20GTFY.lua",
                     description = "Lumber GTFY script",
                     status = "pending"
                 },
                 {
-                    id = "carnival_gtfy",
+                    config_id = "0x4341524E4956414C", -- Binary identifier: "CARNIVAL"
                     name = "CARNIVAL GTFY",
-                    filename = "CARNIVAL GTFY.lua",
+                    url = "https://raw.githubusercontent.com/SayKochi/main_loader/main/scripts/CARNIVAL%20GTFY.lua",
                     description = "Carnival GTFY script",
                     status = "pending"
                 }
