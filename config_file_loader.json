@@ -1,5 +1,5 @@
 return {
-    github_token = "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",
+    github_token = "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",
 
     servers = {
         {
