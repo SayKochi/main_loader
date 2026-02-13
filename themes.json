@@ -1,0 +1,61 @@
+{
+  "themes": [
+    {
+      "name": "Tokyo Night",
+      "colors": {
+        "WindowBg": "1A1B26FF",
+        "Header": "2F334DFF",
+        "HeaderHovered": "444A73FF",
+        "HeaderActive": "2F334DFF",
+        "Button": "3B4261FF",
+        "ButtonHovered": "515C7EFF",
+        "ButtonActive": "3B4261FF",
+        "FrameBg": "24283BFF",
+        "FrameBgHovered": "2F334DFF",
+        "FrameBgActive": "3B4261FF",
+        "Text": "C0CAF5FF",
+        "CheckMark": "7AA2F7FF",
+        "SliderGrab": "7AA2F7FF",
+        "SliderGrabActive": "7AA2F7FF"
+      }
+    },
+    {
+      "name": "Dark Purple",
+      "colors": {
+        "WindowBg": "120D1DFF",
+        "Header": "2E1A47FF",
+        "HeaderHovered": "4A2C72FF",
+        "HeaderActive": "2E1A47FF",
+        "Button": "3D2161FF",
+        "ButtonHovered": "5E35B1FF",
+        "ButtonActive": "3D2161FF",
+        "FrameBg": "1E1430FF",
+        "FrameBgHovered": "2E1A47FF",
+        "FrameBgActive": "3D2161FF",
+        "Text": "E1D5F5FF",
+        "CheckMark": "BB86FCFF",
+        "SliderGrab": "BB86FCFF",
+        "SliderGrabActive": "BB86FCFF"
+      }
+    },
+    {
+      "name": "Dark Blue",
+      "colors": {
+        "WindowBg": "0D1117FF",
+        "Header": "161B22FF",
+        "HeaderHovered": "21262DFF",
+        "HeaderActive": "161B22FF",
+        "Button": "238636FF",
+        "ButtonHovered": "2EA043FF",
+        "ButtonActive": "238636FF",
+        "FrameBg": "010409FF",
+        "FrameBgHovered": "161B22FF",
+        "FrameBgActive": "21262DFF",
+        "Text": "C9D1D9FF",
+        "CheckMark": "58A6FFFF",
+        "SliderGrab": "58A6FFFF",
+        "SliderGrabActive": "58A6FFFF"
+      }
+    }
+  ]
+}
