@@ -31,7 +31,10 @@
         "BorderShadow": "00000000",
         "Separator": "3D1A24FF",
         "SeparatorHovered": "5C2636FF",
-        "SeparatorActive": "FF2D55FF"
+        "SeparatorActive": "FF2D55FF",
+        "ResizeGrip": "2D141AFF",
+        "ResizeGripHovered": "FF2D55FF",
+        "ResizeGripActive": "FF2D55FF"
       }
     },
     {
@@ -65,7 +68,10 @@
         "BorderShadow": "00000000",
         "Separator": "2E1A47FF",
         "SeparatorHovered": "4A2C72FF",
-        "SeparatorActive": "BB86FCFF"
+        "SeparatorActive": "BB86FCFF",
+        "ResizeGrip": "1E1430FF",
+        "ResizeGripHovered": "BB86FCFF",
+        "ResizeGripActive": "BB86FCFF"
       }
     },
     {
@@ -99,8 +105,12 @@
         "BorderShadow": "00000000",
         "Separator": "161B22FF",
         "SeparatorHovered": "21262DFF",
-        "SeparatorActive": "58A6FFFF"
+        "SeparatorActive": "58A6FFFF",
+        "ResizeGrip": "0D1117FF",
+        "ResizeGripHovered": "58A6FFFF",
+        "ResizeGripActive": "58A6FFFF"
       }
     }
   ]
 }
+
