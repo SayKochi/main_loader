@@ -4,6 +4,11 @@
       "name": "Tokyo Night",
       "colors": {
         "WindowBg": "1A1B26FF",
+        "ChildBg": "1A1B26FF",
+        "PopupBg": "1A1B26FF",
+        "TitleBg": "16161EFF",
+        "TitleBgActive": "1A1B26FF",
+        "TitleBgCollapsed": "16161EFF",
         "Header": "2F334DFF",
         "HeaderHovered": "444A73FF",
         "HeaderActive": "2F334DFF",
@@ -13,16 +18,31 @@
         "FrameBg": "24283BFF",
         "FrameBgHovered": "2F334DFF",
         "FrameBgActive": "3B4261FF",
+        "Tab": "1A1B26FF",
+        "TabHovered": "7AA2F7FF",
+        "TabActive": "7AA2F7FF",
+        "TabUnfocused": "1A1B26FF",
+        "TabUnfocusedActive": "2F334DFF",
         "Text": "C0CAF5FF",
         "CheckMark": "7AA2F7FF",
         "SliderGrab": "7AA2F7FF",
-        "SliderGrabActive": "7AA2F7FF"
+        "SliderGrabActive": "7AA2F7FF",
+        "Border": "7AA2F7FF",
+        "BorderShadow": "00000000",
+        "Separator": "2F334DFF",
+        "SeparatorHovered": "444A73FF",
+        "SeparatorActive": "7AA2F7FF"
       }
     },
     {
       "name": "Dark Purple",
       "colors": {
         "WindowBg": "120D1DFF",
+        "ChildBg": "120D1DFF",
+        "PopupBg": "120D1DFF",
+        "TitleBg": "0A0711FF",
+        "TitleBgActive": "120D1DFF",
+        "TitleBgCollapsed": "0A0711FF",
         "Header": "2E1A47FF",
         "HeaderHovered": "4A2C72FF",
         "HeaderActive": "2E1A47FF",
@@ -32,16 +52,31 @@
         "FrameBg": "1E1430FF",
         "FrameBgHovered": "2E1A47FF",
         "FrameBgActive": "3D2161FF",
+        "Tab": "120D1DFF",
+        "TabHovered": "BB86FCFF",
+        "TabActive": "BB86FCFF",
+        "TabUnfocused": "120D1DFF",
+        "TabUnfocusedActive": "2E1A47FF",
         "Text": "E1D5F5FF",
         "CheckMark": "BB86FCFF",
         "SliderGrab": "BB86FCFF",
-        "SliderGrabActive": "BB86FCFF"
+        "SliderGrabActive": "BB86FCFF",
+        "Border": "BB86FCFF",
+        "BorderShadow": "00000000",
+        "Separator": "2E1A47FF",
+        "SeparatorHovered": "4A2C72FF",
+        "SeparatorActive": "BB86FCFF"
       }
     },
     {
       "name": "Dark Blue",
       "colors": {
         "WindowBg": "0D1117FF",
+        "ChildBg": "0D1117FF",
+        "PopupBg": "0D1117FF",
+        "TitleBg": "010409FF",
+        "TitleBgActive": "0D1117FF",
+        "TitleBgCollapsed": "010409FF",
         "Header": "161B22FF",
         "HeaderHovered": "21262DFF",
         "HeaderActive": "161B22FF",
@@ -51,10 +86,20 @@
         "FrameBg": "010409FF",
         "FrameBgHovered": "161B22FF",
         "FrameBgActive": "21262DFF",
+        "Tab": "0D1117FF",
+        "TabHovered": "58A6FFFF",
+        "TabActive": "58A6FFFF",
+        "TabUnfocused": "0D1117FF",
+        "TabUnfocusedActive": "161B22FF",
         "Text": "C9D1D9FF",
         "CheckMark": "58A6FFFF",
         "SliderGrab": "58A6FFFF",
-        "SliderGrabActive": "58A6FFFF"
+        "SliderGrabActive": "58A6FFFF",
+        "Border": "58A6FFFF",
+        "BorderShadow": "00000000",
+        "Separator": "30363DFF",
+        "SeparatorHovered": "58A6FFFF",
+        "SeparatorActive": "58A6FFFF"
       }
     }
   ]
