@@ -95,7 +95,7 @@ return {
                                   "Fitur Tambahan:\n" ..
                                   "\xef\x86\xab Anti-Stuck System\n" ..
                                   "\xef\x86\xab Support Auto Reconnect",
-                    status = "active",
+                    status = "pending",
                     paid = true
                 },
                 {
