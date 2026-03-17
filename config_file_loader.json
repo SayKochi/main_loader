@@ -85,6 +85,7 @@ return {
             label = "GTFY",
             scripts = {
                 {
+                    id = "bf3cbd0c-2204-4e19-8edb-7bd49dcab5d7",
                     name = "LUMBER GTFY",
                     url = "https://raw.githubusercontent.com/SayKochi/koleksi-script/main/LUMBER_GTFY.lua",
                     description = "Automasi penebangan pohon di world GTFY secara efisien:\n\n" ..
@@ -95,10 +96,11 @@ return {
                                   "Fitur Tambahan:\n" ..
                                   "\xef\x86\xab Anti-Stuck System\n" ..
                                   "\xef\x86\xab Support Auto Reconnect",
-                    status = "pending",
+                    status = "active",
                     paid = true
                 },
                 {
+                    id = "ea4ecdd5-0ba8-4f58-97de-85d3f3716990"
                     name = "CARNIVAL GTFY",
                     url = "https://raw.githubusercontent.com/SayKochi/koleksi-script/main/CARNIVAL_GTFY.lua",
                     description = "Automasi tantangan Carnival di server GTFY:\n\n" ..
